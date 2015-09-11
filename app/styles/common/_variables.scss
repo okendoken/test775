@@ -50,33 +50,5 @@ $navbar-height:                90px;
 
 //Components
 
-$feed-post-title-colot:        #30373c;
-
-
-//
-// Bootstrap variables override
-//
-
-$enable-transitions:           true;
-
-$font-family-base:             'PT Serif', serif;
-
-$text-muted:                   #8fa2af;
-
-$headings-font-family:         'Montserrat', sans-serif;
-$headings-font-weight:         $font-weight-bold;
-
-$brand-primary:                $accent-color;
-
-$navbar-padding-vertical:      .8rem;
-
-$icon-font-path:               '../fonts/';
-// Grid containers
-
-$container-max-widths: (
-  sm: 34rem,    // 480
-  md: 48rem,    // 720
-  lg: 60rem,    // 960
-  xl: 80rem     // 1280
-) !default;
-
+$button-background: rgb(156,39,176);
+$button-color: rgb(255,255,255);

@@ -4,6 +4,18 @@
 }
 
 .mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
-  background: rgb(156,39,176);
-  color: rgb(255,255,255);
+  background: $button-background;
+  color: $button-color;
+}
+
+.mdl-layout-title {
+  text-transform: uppercase;
+}
+
+.mdl-button {
+	height: 50px;
+	padding: 0px 35px;
+	display: inline-block;
+	font-size: 26px;
+	text-transform: capitalize;
 }

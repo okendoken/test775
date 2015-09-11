@@ -18,32 +18,21 @@
 // endbower
 
 body {
-  background: #333;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fafafa;
 }
 
 
 body::before {
-    background-image: url('../images/bg.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    content: '';
-    will-change: transform;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    position: fixed;
-}
-
-.mdl-layout__header {
-  background-color: initial;
-  color: white;
-}
-
-.mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
-  background: rgb(156,39,176);
-  color: rgb(255,255,255);
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  content: '';
+  will-change: transform;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: fixed;
 }
