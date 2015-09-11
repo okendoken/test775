@@ -1,6 +1,20 @@
+@import "common/variables";
+
+@import "common/mixins";
+@import "common/utils";
+@import "common/sprite";
+
+@import "override/override-mdl";
+@import "override/override-libs";
+
+
+@import "base/general";
+@import "base/layout";
+
+@import "components/latest-posts-feed";
+
 // bower:scss
 @import '/bower_components/material-design-lite/material.min.css';
-
 // endbower
 
 body {
@@ -9,28 +23,6 @@ body {
   color: #fafafa;
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 300px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-}
-
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
 
 body::before {
     background-image: url('../images/bg.jpg');
@@ -54,8 +46,4 @@ body::before {
 .mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
   background: rgb(156,39,176);
   color: rgb(255,255,255);
-}
-
-.mdl-button.mdl-button--colored {
-  color: rgb(156,39,176);
 }

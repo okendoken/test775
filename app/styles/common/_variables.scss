@@ -1,0 +1,82 @@
+
+$accent-color:                 #f68a26;
+$lines-color:                  #e6e6e6;
+$alert-color:                  #ff5454;
+$body-bg:                      #ececec;
+$search-form-bg:               #ededed;
+$main-content-bg:              #fff;
+
+$font-weight-bold:             700 !default;
+$font-weight-semi-bold:        600 !default;
+$font-weight-normal:           500 !default;
+$font-weight-thin:             300 !default;
+$font-weight-base:             $font-weight-thin !default;
+
+// Layout
+
+$app-header-bg:                #fff;
+$app-header-height:            130px;
+$app-header-height-sm:         100px;
+$app-header-border:            #e6e6e6;
+$app-header-text-color:        #30373c;
+$app-header-font-size:         1.5rem;
+
+$page-title-font-size:         32px;
+$page-title-font-weight:       bold;
+$page-title-accent-color:      #acbac5;
+
+$mobile-apps-text:             #95a1ab;
+$mobile-apps-font-size:        16px;
+$mobile-apps-line-height:      46px;
+
+
+$app-footer-height:            370px;
+$app-footer-height-sm:         640px;
+$app-footer-text-color:        #30373c;
+$app-footer-text-muted:        #9f9f9f;
+
+$top-bar-bg:                   #31383d;
+$top-bar-font-size:            14px;
+$top-bar-link-color:           #fff;
+$top-bar-link-opacity:         .4;
+$top-bar-link-hover-opacity:   .6;
+
+$nav-footer-link-color:        #3a4248;
+
+$navbar-height:                90px;
+
+// Utils
+
+
+//Components
+
+$feed-post-title-colot:        #30373c;
+
+
+//
+// Bootstrap variables override
+//
+
+$enable-transitions:           true;
+
+$font-family-base:             'PT Serif', serif;
+
+$text-muted:                   #8fa2af;
+
+$headings-font-family:         'Montserrat', sans-serif;
+$headings-font-weight:         $font-weight-bold;
+
+$brand-primary:                $accent-color;
+
+$navbar-padding-vertical:      .8rem;
+
+$icon-font-path:               '../fonts/';
+// Grid containers
+
+$container-max-widths: (
+  sm: 34rem,    // 480
+  md: 48rem,    // 720
+  lg: 60rem,    // 960
+  xl: 80rem     // 1280
+) !default;
+
